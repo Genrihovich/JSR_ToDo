@@ -42,10 +42,11 @@ function FormTodo({ addTodo }) {
   );
 }
 
+//список задач и их статусы
 function App() {
   const [todos, setTodos] = React.useState([
     {
-      text: "This is a sampe todo",
+      text: "Это пример задачи",
       isDone: false
     }
   ]);
